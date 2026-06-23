@@ -1,4 +1,12 @@
+/*
+E-commerce core tables for Olist marketplace analytics.
 
+These tables represent the cleaned, analytical layer used for
+transactional analysis, seller performance, customer behavior,
+and revenue reporting.
+
+Source: Olist Brazilian E-Commerce Dataset (Kaggle)
+*/
 
 LOAD DATA INFILE '<PATH TO FILE olist_customers_dataset.csv>'
 INTO TABLE ecommerce.olist_customers
